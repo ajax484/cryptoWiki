@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "nunito-sans";
+  font-display: swap;
+  src: url('./Assets/fonts/NunitoSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "nunito-sans__black";
+  font-display: swap;
+  src: url('./Assets/fonts/NunitoSans-Black.ttf');
+}
+
+@font-face {
+  font-family: "nunito-sans__bold";
+  font-display: swap;
+  src: url('./Assets/fonts/NunitoSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: "nunito-sans__extrabold";
+  font-display: swap;
+  src: url('./Assets/fonts/NunitoSans-ExtraBold.ttf');
+}
+
+body {
+  @apply font-nunitoSans;
+}
+
+.description > a {
+  @apply text-orange-500 font-nunitoSansBold hover:underline
+}

@@ -1,0 +1,59 @@
+from home
+
+ {/* <div className="border-[1px] border-solid border-gray-200 py-2 px-4 bg-white text-black shadow-lg card">
+                <h2 className="text-center font-nunitoSansBold text-orange-500 text-lg">Total Market Capital</h2>
+                <VictoryChart
+                  domainPadding={20}
+                >
+                  <VictoryAxis
+                    dependentAxis
+                    // tickFormat specifies how ticks should be displayed
+                    tickFormat={(x) => (`${x / 1000000000000}B`)}
+                  />
+                  <VictoryBar
+                    horizontal
+                    style={{
+                      data: {
+                        fill: 'orange'
+                      }
+                    }}
+                    data={convertObjectToArray(totMarketCap, ['name', 'value']).sort((a, b) => b.value - a.value).slice(0, 10)}
+                    x="name"
+                    y="value"
+                    barRatio={0.5}
+                  />
+                  <VictoryAxis
+                    tickValues={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+                  />
+                </VictoryChart>
+              </div> */}
+
+              
+
+                {/* <div className="border-[1px] border-solid border-gray-200 py-2 px-4 bg-white text-black shadow-lg card">
+                <h2 className="text-center font-nunitoSansBold text-orange-500 text-lg">Total Market Capital</h2>
+                <VictoryChart
+                  domainPadding={20}
+                >
+                  <VictoryAxis
+                    dependentAxis
+                    // tickFormat specifies how ticks should be displayed
+                    tickFormat={(x) => (`${x / 1000000000000}B`)}
+                  />
+                  <VictoryBar
+                    horizontal
+                    style={{
+                      data: {
+                        fill: 'orange'
+                      }
+                    }}
+                    data={convertObjectToArray(totVol, ['name', 'value']).sort((a, b) => b.value - a.value).slice(0, 10)}
+                    x="name"
+                    y="value"
+                    barRatio={0.5}
+                  />
+                  <VictoryAxis
+                    tickValues={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+                  />
+                </VictoryChart>
+              </div> */}
