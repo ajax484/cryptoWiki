@@ -17,9 +17,9 @@ root.render(
           <Route path="/info" element={<Info />}>
             <Route path="coins" element={<Coins />} />
             <Route path="coins/coin/:coin" element={<Coin />} />
-            <Route path="exchanges" element={<Exchanges />} />
+            {/* <Route path="exchanges" element={<Exchanges />} /> */}
           </Route>
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="*" element={<NoPage />} />
         </Routes>
       </main>
